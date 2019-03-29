@@ -1,0 +1,195 @@
+{% load staticfiles %}
+{% load blog_tags %}
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+		<title>产品中心-上海诺能生物科技有限公司</title>
+		<meta name="keywords" content="诺能生物 上海生物科技" />
+		<meta name="description" content="上海诺能生物科技有限公司" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link type="text/css" href="css/home/banner.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/news.css" />
+		<link rel="stylesheet" href="css/roll.css" />
+		<script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+		<script type="text/javascript">
+			$youziku.load("body", "110fff50b6a94dc5878dabb482488f44", "Source-Han-Light");
+			/*$youziku.load("#id1,.class1,h1", "110fff50b6a94dc5878dabb482488f44", "Source-Han-Light");*/
+			/*．．．*/
+			$youziku.draw();
+		</script>
+	</head>
+
+	<body>
+		<div class="waller">
+			<div class="header">
+				<div class="wbox">
+					<div class="logoer_m m">
+						<img src="img/m_logo.png" />
+					</div>
+					<div class="logoer_02">
+						<img src="img/logo_2.png" />
+					</div>
+					<div class="menu-btn m" id="menuBtn">
+						<img src="img/m/menu_btn.png" />
+					</div>
+					<ul class="menu">
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="jacascript::void(0)">WHO WE ARE</a>
+							<ul>
+								<li>
+									<a href="philosophy.html"><span class="cn">企业哲学</span><span class="en">PHILOSOPHY</span></a>
+								</li>
+								<li>
+									<a href="network.html"><span class="cn">全球网络</span><span class="en">GLOBALE NETWORK</span></a>
+								</li>
+								<li>
+									<a href="history.html"><span class="cn">大事记</span><span class="en">MILESTIONE</span></a>
+								</li>
+								<li>
+									<a href="news.html"><span class="cn">公司新闻</span><span class="en">NEWS</span></a>
+								</li>
+								<li>
+									<a href="team.html"><span class="cn">领导团队</span><span class="en">LEADERSHIP</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="pro.html">WHAT WE DO</a>
+						</li>
+						<li>
+							<a href="jacascript::void(0)">JOIN US</a>
+							<ul>
+								<li>
+									<a href="recruit.html"><span class="cn">企业招聘</span><span class="en">RECRUITMENT</span></a>
+								</li>
+								<li>
+									<a href="activity.html"><span class="cn">员工活动</span><span class="en">ACTIVITIES</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="contact.html">CONTACT US</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="menu_m m">
+				<li class="home line">
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="philosophy.html" class="cur">企业哲学</a>
+				</li>
+				<li>
+					<a href="network.html">全球网络</a>
+				</li>
+				<li>
+					<a href="history.html">大事记</a>
+				</li>
+				<li>
+					<a href="news.html">公司新闻</a>
+				</li>
+				<li class="line">
+					<a href="team.html">领导团队</a>
+				</li>
+				<li>
+					<a href="recruit.html">企业招聘</a>
+				</li>
+				<li class="line">
+					<a href="activity.html">员工活动</a>
+				</li>
+				<li>
+					<a href="contact.html">联系我们</a>
+				</li>
+			</ul>
+			<div class="mainer news_bg new_view_bg" style="height: 1600px;">
+				<div class="page_box">
+					<div class="page_title">
+						<img src="img/news_title.png" height="20">
+						<div class="right">
+							<a href="#">HOME</a> /
+							<a href="#">WHO WE ARE</a> /
+							<a href="#">NEWS</a>
+						</div>
+						<div class="title_cn">新闻</div>
+					</div>
+					<div class="new-view-box">
+						<h2>{{ post.title }}<br>{{ post.title }}</h2>
+						<div class="tag-box">
+							<span class="pc">标签： <a href="#" class="tag">2018天猫</a><a href="#" class="tag">九大行业</a></span>
+							<div class="time">2018年12月11日</div>
+						</div>
+						<div class="new_view_box">
+							{{ post.body }}
+                		</div>
+                        <div class="more_box">
+                        	   <div class="next">
+                              <span>上一篇：</span><a href="#">2018年双11天猫九大行业榜</a>
+                            </div>
+                            <div class="next">
+                        	       <span>下一篇：</span><a href="#">2018年双11天猫九大行业榜</a>
+                        	   </div>
+                        </div>
+					</div>
+				</div>
+				<div class="footer pc">
+					<div class="wbox">
+						<div class="left">
+							<div class="wm"><img src="img/wm.png"></div>
+							<p>敬请关注Nint任拓企业官方微信</p>
+						</div>
+						<div class="right">
+							<ul class="nav">
+								<li>
+									<a href="#">LEADERSHIP</a>
+								</li>
+								<li>
+									<a href="#">NEWS</a>
+								</li>
+								<li>
+									<a href="#">MILESTONE</a>
+								</li>
+								<li>
+									<a href="#">GLOBAL NETWORK</a>
+								</li>
+								<li>
+									<a href="#">PHILOSOPHY</a>
+								</li>
+								<li>
+									<a href="#">WHO WE ARE</a>
+								</li>
+							</ul>
+							<ul class="nav">
+								<li>
+									<a href="#">CONTACT US</a>
+								</li>
+								<li>
+									<a href="#">ACTIVITIES</a>
+								</li>
+								<li>
+									<a href="#">RECUITMENT</a>
+								</li>
+								<li>
+									<a href="#">JOIN US</a>
+								</li>
+								<li>
+									<a href="#">WHAT WE DO</a>
+								</li>
+							</ul>
+							<div class="copy">COPYRIGHT (C) NINT INC. RIGHTS RESERVED. 沪ICP备 14010700号-6</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/pulic.js" ></script>
+	</body>
+
+</html>
